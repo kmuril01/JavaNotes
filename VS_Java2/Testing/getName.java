@@ -1,0 +1,12 @@
+package GeMetrixTesting;
+
+import java.util.Scanner;
+
+public class getName {
+    public static void main(String args[]) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Thank you for visiting us. What is your first name?");
+        String name = in.nextLine();
+        System.out.println("Welcome, " + name);
+    }
+}
